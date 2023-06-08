@@ -1,1 +1,2 @@
 #!/bin/bash
+vi -c ":silent! if getline(1) =~ '^guillaume$' | wq! | endif" hello
